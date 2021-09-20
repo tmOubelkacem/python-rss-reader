@@ -1,0 +1,14 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyfunctional = "==1.4.3"
+lxml = "==4.6.3"
+requests = "==2.26.0"
+beautifulsoup4 = "==4.10.0"
+pytimeparse = "==1.1.8"
+
+[requires]
+python_version = "3.9"
