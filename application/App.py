@@ -1,8 +1,8 @@
-from reader.ReadRss import ReadRss
+from domain.service.podcast_reader import list_podcasts
 
 
 def main():
-    ReadRss()
+    list_podcasts()
 
 
 if __name__ == "__main__":
