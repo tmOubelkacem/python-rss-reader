@@ -3,7 +3,7 @@ from datetime import date
 
 
 @dataclass(frozen=True)
-class Podcast:
+class Podcast():
     title: str
     publication_date: date
     duration: int
